@@ -1,95 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Parth - Designs</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-<link rel="icon" type="image/x-icon" href="assets/user-pic.jpg">
-<style>
-  @import url("https://fonts.googleapis.com/css?family=Poppins");
-body{
-  background: #000;
-}
+  <meta charset="UTF-8">
+  <title>Designs — Parth Kshirsagar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-h1 {
-  font-size: 28px; 
-  font-weight: 700;
-	margin: 0 0 28px;
-	color: #ffffff;
-	line-height: 50px;
-	display: inline-block;
-	border-bottom: solid #ffffff;
-  border-left: #000;
-  border-width: 1px;
-}
-.w3-row img {margin-bottom: -8px}
-p {
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  text-decoration: solid;
-  color: white;
-}
-</style>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="assets/PFP/Parth PFP natrure.png">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+      background: #0e0f13;
+      color: #e6e6eb;
+    }
+
+    /* Header */
+    .design-header {
+      text-align: center;
+      padding: 56px 20px 32px;
+    }
+
+    .design-header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    .design-header p {
+      color: #9aa0b3;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    .back-link {
+      color: #6cf2c2;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    /* Masonry Gallery */
+    .design-gallery {
+      column-count: 3;
+      column-gap: 18px;
+      padding: 20px 24px 64px;
+      max-width: 1400px;
+      margin: auto;
+    }
+
+    @media (max-width: 1024px) {
+      .design-gallery { column-count: 2; }
+    }
+
+    @media (max-width: 600px) {
+      .design-gallery { column-count: 1; }
+    }
+
+    .design-item {
+      break-inside: avoid;
+      margin-bottom: 18px;
+      background: #161821;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.08);
+      transition: transform 0.25s ease;
+    }
+
+    .design-item:hover {
+      transform: translateY(-4px);
+    }
+
+    .design-item img {
+      width: 100%;
+      display: block;
+    }
+
+    .design-caption {
+      padding: 10px 14px;
+      font-size: 13px;
+      color: #9aa0b3;
+      text-align: center;
+      background: #161821;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      color: #9aa0b3;
+    }
+
+    footer a {
+      color: #6cf2c2;
+      text-decoration: none;
+    }
+  </style>
 </head>
+
 <body>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
+<!-- HEADER -->
+<header class="design-header">
+  <h1>Design Work</h1>
+  <p>Posters, thumbnails, banners & visual explorations</p>
+  <a href="index.html" class="back-link">← Back to Home</a>
+</header>
 
-  <!-- Header -->
-  <header class="w3-container w3-xlarge w3-padding-24">
-    <a href="#"><h1>MY DESIGNS</h1></a>
-    <a href="index.html"><p>🏡 HOME</p></a>
-  </header>
+<!-- GALLERY -->
+<section class="design-gallery">
 
-  <!-- Photo Grid -->
-  <div class="w3-row">
-    <div class="w3-half">
-      <p align="center">GOD Posters</p>
-      <img src="assets/Portfolio designs (5).png" style="width:100%">
-      <p align="center">BATMAN Poster</p>
-      <img src="assets/53.png" style="width:100%">
-      <p align="center">Youtube Thumbnails</p>
-      <img src="assets/thumbnail dk.png" style="width:100%">
-      <p align="center">Deadpool Poster</p>
-      <img src="assets/marvel jesus (1).png" style="width:100%">
-      <p align="center">Personalized Poster</p>
-      <img src="assets/Aura.png" style="width:100%">
-      <p align="center">Sports Car Poster</p>
-      <img src="assets/97.png" style="width:100%">
-      <p align="center">Sports Academy banner</p>
-      <img src="assets/ambitious banner.png" style="width:100%">
-    </div>
-
-    <div class="w3-half">
-      <p align="center">Lewis Hamilton</p>
-      <img src="assets/48.png" style="width:100%">
-      <p align="center">Youtube Thumbnails</p>
-      <img src="assets/pod10_lth.png" style="width:100%">
-      <p align="center">Rally Car Poster</p>
-      <img src="assets/lancer evo 3.png" style="width:100%">
-      <p align="center">Personalized Poster</p>
-      <img src="assets/cold start.png" style="width:100%">
-      <p align="center">Messi Poster</p>
-      <img src="assets/99.png" style="width:100%">
-      <p align="center">Event banner</p>
-      <img src="assets/CFn christmas camp (2).png" style="width:100%">
-    </div>
+  <!-- LEFT COLUMN ORIGINAL ORDER -->
+  <div class="design-item">
+    <img src="assets/Portfolio designs (5).png">
+    <div class="design-caption">GOD Posters</div>
   </div>
-  
-<!-- End Page Content -->
 
-<!-- Footer / About Section -->
-<footer id="about">
-  <p align="center">Made by <a href="https://www.instagram.com/parthk.py/" target="_blank" class="w3-hover-text-green">Parth</a></p>
+  <div class="design-item">
+    <img src="assets/53.png">
+    <div class="design-caption">Batman Poster</div>
+  </div>
+
+  <div class="design-item">
+    <img src="assets/thumbnail dk.png">
+    <div class="design-caption">YouTube Thumbnails</div>
+  </div>
+
+  <div class="design-item">
+    <img src="assets/marvel jesus (1).png">
+    <div class="design-caption">Deadpool Poster</div>
+  </div>
+
+  <div class="design-item">
+    <img src="assets/Aura.png">
+    <div class="design-caption">Personalized Poster</div>
+  </div>
+
+  <div class="design-item">
+    <img src="assets/97.png">
+    <div class="design-caption">Sports Car Poster</div>
+  </div>
+
+  <div class="design-item">
+    <img src="assets/ambitious banner.png">
+    <div class="design-caption">Sports Academy Banner</div>
+  </div>
+
+  <!-- RIGHT COLUMN ORIGINAL ORDER -->
+  <div class="design-item">
+    <img src="assets/48.png">
+    <div class="design-caption">Lewis Hamilton</div>
+  </div>
+
+  <div class="design-item">
+    <img src="assets/pod10_lth.png">
+    <div class="design-caption">YouTube Thumbnail</div>
+  </div>
+
+  <div class="design-item">
+    <img src="assets/lancer evo 3.png">
+    <div class="design-caption">Rally Car Poster</div>
+  </div>
+
+  <div class="design-item">
+    <img src="assets/cold start.png">
+    <div class="design-caption">Personalized Poster</div>
+  </div>
+
+  <div class="design-item">
+    <img src="assets/99.png">
+    <div class="design-caption">Messi Poster</div>
+  </div>
+
+  <div class="design-item">
+    <img src="assets/CFn christmas camp (2).png">
+    <div class="design-caption">Event Banner</div>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  Made by <a href="https://www.instagram.com/parthk.py/" target="_blank">Parth</a>
 </footer>
-</div>
- 
-<?php
-echo "My first PHP script!";
-?>
 
 </body>
 </html>
